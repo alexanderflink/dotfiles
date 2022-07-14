@@ -64,3 +64,4 @@ chmod +x ./git-setup.sh
 # --------------------------------- 
 
 # - Panic Nova does not currently work through homebrew
+# - Spark email client is only available through App Store
