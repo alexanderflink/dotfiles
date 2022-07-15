@@ -41,6 +41,15 @@ chsh -s /usr/local/bin/fish
 
 brew install jesseduffield/lazygit/lazygit
 
+# Install fnm and set default node version to 16
+brew install fnm
+
+echo "fnm env --use-on-cd | source" > ~/.config/fish/conf.d/fnm.fish
+
+fnm install 16
+
+fnm default 16
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
