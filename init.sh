@@ -5,7 +5,7 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 
 # ---------------------------------
 # Install GUI apps with brew cask
-# --------------------------------- 
+# ---------------------------------
 
 brew install --cask 1password
 
@@ -31,7 +31,7 @@ mkdir -p ~/dev
 
 # ---------------------------------
 # Install CLI apps
-# --------------------------------- 
+# ---------------------------------
 
 brew install fish
 
@@ -53,6 +53,9 @@ fnm default 16
 # Enable corepack (to install yarn automatically in projects)
 corepack enable
 
+# Install rust
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
@@ -61,19 +64,19 @@ chmod +x ./macos-setup.sh
 
 # ---------------------------------
 # Run shell setup
-# --------------------------------- 
+# ---------------------------------
 chmod +x ./shell-setup.sh
 ./shell-setup.sh
 
 # ---------------------------------
 # Run git setup
-# --------------------------------- 
+# ---------------------------------
 chmod +x ./git-setup.sh
 ./git-setup.sh
 
 # ---------------------------------
 # Manual / missing steps
-# --------------------------------- 
+# ---------------------------------
 
 # - Panic Nova does not currently work through homebrew
 # - Spark email client is only available through App Store
