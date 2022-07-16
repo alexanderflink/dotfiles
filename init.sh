@@ -50,6 +50,9 @@ fnm install 16
 
 fnm default 16
 
+# Enable corepack (to install yarn automatically in projects)
+corepack enable
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
