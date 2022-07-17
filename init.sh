@@ -23,6 +23,8 @@ brew install --cask telegram
 
 brew install --cask toggl-track
 
+brew install --cask numi
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
