@@ -58,6 +58,12 @@ corepack enable
 # Install rust
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
+# Install neovim and add AstroNvim 
+brew install neovim
+
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim +PackerSync
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
