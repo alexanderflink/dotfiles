@@ -25,6 +25,11 @@ brew install --cask toggl-track
 
 brew install --cask numi
 
+brew install --cask sublime-merge
+
+brew install --cask sublime-text
+defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -52,6 +57,9 @@ fnm install 16
 
 fnm default 16
 
+# Install prettier globally
+npm install -g prettier
+	
 # Enable corepack (to install yarn automatically in projects)
 corepack enable
 
@@ -61,8 +69,9 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 # Install neovim and add AstroNvim 
 brew install neovim
 
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim +PackerSync
+# Install nerd font (Source code pro)
+brew tap homebrew/cask-fonts &&
+brew install --cask font-sauce-code-pro-nerd-font
 
 # ---------------------------------
 # Run macos setup
