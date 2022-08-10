@@ -30,6 +30,8 @@ brew install --cask sublime-merge
 brew install --cask sublime-text
 defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
 
+brew install --cask slack
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
