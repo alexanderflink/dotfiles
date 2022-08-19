@@ -18,3 +18,9 @@ alias gc="git commit" -s
 
 # add rust to path
 fish_add_path $HOME/.cargo/bin
+
+function git_merged
+	diff (git branch -a --merged $argv | psub) (git branch -a --no-merged $argv | psub)
+end
+
+funcsave git_merged

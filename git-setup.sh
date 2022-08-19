@@ -9,3 +9,6 @@ git config --global pull.rebase false
 # set user
 git config --global user.name "Alexander Flink"
 git config --global user.email "hi@alexanderflink.com"
+
+# set global gitignore
+git config --global core.excludesfile ~/.gitignore
