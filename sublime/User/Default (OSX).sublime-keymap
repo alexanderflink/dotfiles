@@ -1,0 +1,57 @@
+[
+	{
+		"keys": ["super+shift+o"],
+		"command": "show_overlay",
+		"args": { "overlay": "goto", "show_files": true }
+	},
+	{
+		"keys": ["h"],
+		"command": "move",
+		"args": { "by": "characters", "forward": false },
+		"context": [{ "key": "control", "operand": "sidebar_tree" }]
+	},
+	{
+		"keys": ["j"],
+		"command": "move",
+		"args": { "by": "lines", "forward": true },
+		"context": [{ "key": "control", "operand": "sidebar_tree" }]
+	},
+	{
+		"keys": ["k"],
+		"command": "move",
+		"args": { "by": "lines", "forward": false },
+		"context": [{ "key": "control", "operand": "sidebar_tree" }]
+	},
+	{
+		"keys": ["l"],
+		"command": "move",
+		"args": { "by": "characters", "forward": true },
+		"context": [{ "key": "control", "operand": "sidebar_tree" }]
+	},
+	// Hover Popup
+	{
+		"command": "lsp_hover",
+		"keys": ["alt+l"],
+		"context": [
+			{
+				"key": "lsp.session_with_capability",
+				"operator": "equal",
+				"operand": "hoverProvider"
+			}
+		]
+	},
+	{
+		"keys": ["shift+super+'"],
+		"command": "emmet_split_join_tag"
+	},
+	{
+		"keys": ["ctrl+alt+up"],
+		"command": "scroll_lines",
+		"args": { "amount": 10.0 }
+	},
+	{
+		"keys": ["ctrl+alt+down"],
+		"command": "scroll_lines",
+		"args": { "amount": -10.0 }
+	}
+]

@@ -1,0 +1,28 @@
+{
+	"ignored_packages": [
+		"Vintage",
+	],
+	"vintage_start_in_command_mode": true,
+	"color_scheme": "Solarized (dark).sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+	"font_face": "Sauce Code Pro Medium Nerd Font Complete Mono",
+	"auto_complete": true,
+	"highlight_line": true,
+	"caret_style": "phase",
+	"block_caret": true,
+	"folder_exclude_patterns": [
+		"node_modules",
+		".next",
+		".vscode",
+		".husky/_",
+		"sanity/dist",
+	],
+	"file_exclude_patterns": [
+		".eslintcache",
+		".DS_Store",
+		"tsconfig.tsbuildinfo",
+		"yalc.lock",
+		"yarn.lock"
+	],
+	"font_size": 13,
+}

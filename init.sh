@@ -25,8 +25,6 @@ brew install --cask toggl-track
 
 brew install --cask numi
 
-brew install --cask sublime-merge
-
 brew install --cask sublime-text
 defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
 
@@ -92,6 +90,12 @@ chmod +x ./shell-setup.sh
 # ---------------------------------
 chmod +x ./git-setup.sh
 ./git-setup.sh
+
+# ---------------------------------
+# Run sublime setup
+# ---------------------------------
+chmod +x ./sublime-setup.sh
+./sublime-setup.sh
 
 # ---------------------------------
 # Manual / missing steps

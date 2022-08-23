@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "yarn && yarn build",
+	"keyfiles": "next.config.js"
+}
