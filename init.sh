@@ -42,6 +42,9 @@ mkdir -p ~/dev
 
 brew install fish
 
+# fisher is a package manager for fish shell
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+
 # Set fish as default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
