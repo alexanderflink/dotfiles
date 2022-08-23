@@ -9,6 +9,8 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 
 brew install --cask 1password
 
+brew install --cask 1password/tap/1password-cli
+
 brew install --cask brave-browser
 
 brew install --cask warp
