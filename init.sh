@@ -32,6 +32,8 @@ defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
 
 brew install --cask slack
 
+brew install --cask insomnia
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -64,6 +66,9 @@ fnm default 16
 
 # Install prettier globally
 npm install -g prettier
+
+# Install yalc globally
+npm install yalc -g
 	
 # Enable corepack (to install yarn automatically in projects)
 corepack enable
