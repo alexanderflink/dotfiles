@@ -34,6 +34,8 @@ brew install --cask slack
 
 brew install --cask insomnia
 
+brew install --cask karabiner-elements
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
