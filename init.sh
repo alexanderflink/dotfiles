@@ -36,6 +36,8 @@ brew install --cask insomnia
 
 brew install --cask karabiner-elements
 
+brew install --cask docker
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -54,6 +56,8 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 # Set fish as default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+
+brew install docker
 
 brew install jesseduffield/lazygit/lazygit
 
