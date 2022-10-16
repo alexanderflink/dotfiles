@@ -9,6 +9,8 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 
 brew install --cask 1password
 
+brew install --cask 1password/tap/1password-cli
+
 brew install --cask brave-browser
 
 brew install --cask warp
@@ -30,6 +32,12 @@ defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
 
 brew install --cask slack
 
+brew install --cask insomnia
+
+brew install --cask karabiner-elements
+
+brew install --cask docker
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -42,9 +50,14 @@ mkdir -p ~/dev
 
 brew install fish
 
+# fisher is a package manager for fish shell
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+
 # Set fish as default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+
+brew install docker
 
 brew install jesseduffield/lazygit/lazygit
 
@@ -59,6 +72,9 @@ fnm default 16
 
 # Install prettier globally
 npm install -g prettier
+
+# Install yalc globally
+npm install yalc -g
 	
 # Enable corepack (to install yarn automatically in projects)
 corepack enable

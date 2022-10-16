@@ -24,3 +24,6 @@ function git_merged
 end
 
 funcsave git_merged
+
+# install z (jump around)
+fisher install jethrokuan/z
