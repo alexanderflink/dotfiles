@@ -91,6 +91,8 @@ brew install --cask font-sauce-code-pro-nerd-font
 
 brew install gh
 
+brew install ffmpeg
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
