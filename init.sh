@@ -89,6 +89,8 @@ brew install neovim
 brew tap homebrew/cask-fonts &&
 brew install --cask font-sauce-code-pro-nerd-font
 
+brew install gh
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
