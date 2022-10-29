@@ -38,6 +38,8 @@ brew install --cask karabiner-elements
 
 brew install --cask docker
 
+brew install --cask hammerspoon
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -92,6 +94,14 @@ brew install --cask font-sauce-code-pro-nerd-font
 brew install gh
 
 brew install ffmpeg
+
+brew install ripgrep
+
+brew install fd
+
+brew install luarocks
+
+brew install cmake
 
 # ---------------------------------
 # Run macos setup
