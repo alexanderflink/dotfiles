@@ -90,6 +90,7 @@ brew install neovim
 # Install nerd font (Source code pro)
 brew tap homebrew/cask-fonts &&
 brew install --cask font-sauce-code-pro-nerd-font
+brew install --cask font-hack-nerd-font
 
 brew install gh
 
@@ -102,6 +103,8 @@ brew install fd
 brew install luarocks
 
 brew install cmake
+
+brew install htop
 
 # ---------------------------------
 # Run macos setup
