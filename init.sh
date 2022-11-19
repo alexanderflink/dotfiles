@@ -40,6 +40,12 @@ brew install --cask docker
 
 brew install --cask hammerspoon
 
+brew install --cask amethyst
+
+brew install --cask obsidian
+
+brew install --cask timing
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
