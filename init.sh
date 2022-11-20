@@ -112,6 +112,8 @@ brew install cmake
 
 brew install htop
 
+brew install httpie
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
