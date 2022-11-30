@@ -46,6 +46,8 @@ brew install --cask timing
 
 brew install --cask rectangle
 
+brew install --cask imageoptim
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
