@@ -48,6 +48,8 @@ brew install --cask rectangle
 
 brew install --cask imageoptim
 
+brew install --cask ubersicht
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -115,6 +117,11 @@ brew install cmake
 brew install htop
 
 brew install httpie
+
+# requires codesigning with self signed certificate
+brew install koekeishiya/formulae/yabai --HEAD
+
+brew install koekeishiya/formulae/skhd
 
 # ---------------------------------
 # Run macos setup
