@@ -41,6 +41,8 @@ brew install --cask imageoptim
 
 brew install --cask ubersicht
 
+brew install --cask neovide
+
 # ---------------------------------
 # Create folders
 # ---------------------------------
@@ -85,7 +87,7 @@ corepack enable
 # Install rust
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
-# Install neovim and add AstroNvim 
+# Install neovim
 brew install neovim
 
 # Install nerd font (Source code pro)
@@ -132,15 +134,4 @@ chmod +x ./shell-setup.sh
 chmod +x ./git-setup.sh
 ./git-setup.sh
 
-# ---------------------------------
-# Run sublime setup
-# ---------------------------------
-chmod +x ./sublime-setup.sh
-./sublime-setup.sh
 
-# ---------------------------------
-# Manual / missing steps
-# ---------------------------------
-
-# - Panic Nova does not currently work through homebrew
-# - Spark email client is only available through App Store
