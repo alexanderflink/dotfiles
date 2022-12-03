@@ -23,13 +23,6 @@ brew install --cask spotify
 
 brew install --cask telegram
 
-brew install --cask toggl-track
-
-brew install --cask numi
-
-brew install --cask sublime-text
-defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
-
 brew install --cask slack
 
 brew install --cask insomnia
@@ -43,8 +36,6 @@ brew install --cask hammerspoon
 brew install --cask obsidian
 
 brew install --cask timing
-
-brew install --cask rectangle
 
 brew install --cask imageoptim
 
