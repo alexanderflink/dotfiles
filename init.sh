@@ -99,6 +99,8 @@ brew install gh
 
 brew install ffmpeg
 
+brew install imagemagick
+
 brew install ripgrep
 
 brew install fd
