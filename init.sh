@@ -62,14 +62,15 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
+# Starship prompt
+brew install starship
+
 brew install docker
 
 brew install jesseduffield/lazygit/lazygit
 
 # Install fnm and set default node version to 16
 brew install fnm
-
-echo "fnm env --use-on-cd | source" > ~/.config/fish/conf.d/fnm.fish
 
 fnm install 16
 
