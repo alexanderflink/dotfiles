@@ -62,8 +62,6 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
-# Starship prompt
-brew install starship
 
 brew install docker
 
@@ -114,6 +112,10 @@ brew install htop
 
 brew install httpie
 
+brew install starship
+
+brew install jless
+
 # requires codesigning with self signed certificate
 brew install koekeishiya/formulae/yabai --HEAD
 
@@ -124,12 +126,6 @@ brew install koekeishiya/formulae/skhd
 # ---------------------------------
 chmod +x ./macos-setup.sh
 ./macos-setup.sh
-
-# ---------------------------------
-# Run shell setup
-# ---------------------------------
-chmod +x ./shell-setup.sh
-./shell-setup.sh
 
 # ---------------------------------
 # Run git setup
