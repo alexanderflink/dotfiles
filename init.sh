@@ -121,6 +121,9 @@ brew install koekeishiya/formulae/yabai --HEAD
 
 brew install koekeishiya/formulae/skhd
 
+# set hammerspoon config directory
+defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"
+
 # ---------------------------------
 # Run macos setup
 # ---------------------------------
